@@ -7,6 +7,7 @@ describe('unicafe reducer', () => {
     ok: 0,
     bad: 0
   }
+  deepFreeze(initialState)
 
   test('should return a proper initial state when called with undefined state', () => {
     const state = {}
